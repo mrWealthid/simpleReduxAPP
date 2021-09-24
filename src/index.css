@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Lato;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  padding: 25px;
+  width: 300px;
+  height: 460px;
+  border: 1px solid black;
+}
+
+.card_title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.schedule {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.schedule_title {
+  text-align: start;
+}
+img {
+  width: 100%;
+}
+
+.event_desc {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.event_desc h5 {
+  margin-bottom: 5px;
+}
+
+.schedule_title {
+  margin-bottom: 5px;
+}
+
+.event_desc p {
+  font-size: 13px;
+  color: rgba(153, 153, 153, 1);
+}
+.schedule p {
+  font-size: 13px;
+}
+.reminder-dropdown {
+  background: rgba(0, 184, 124, 1);
+  outline: none;
+  padding: 10px;
+  border: none;
+  color: white;
+  margin-top: 30px;
 }
